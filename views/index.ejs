@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4">Todo List</h1>
+        <form id="todo-form" class="mb-4">
+            <input type="text" id="new-task" placeholder="New Task" class="border p-2 rounded w-full">
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded mt-2 w-full">Add</button>
+        </form>
+        <ul id="todo-list" class="list-disc list-inside">
+            <!-- Todos will be added here -->
+        </ul>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
